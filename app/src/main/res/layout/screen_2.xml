@@ -102,15 +102,16 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.035"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.061" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#FAF7F7"
         android:text="Popular"
         android:textColor="#000000"
@@ -135,12 +136,18 @@
         app:layout_constraintHorizontal_bias="0.936"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <ListView
         android:id="@+id/lvPr"
-        android:layout_width="410dp"
-        android:layout_height="332dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="398dp" />
+        android:layout_width="411dp"
+        android:layout_height="355dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
